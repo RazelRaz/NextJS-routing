@@ -1,3 +1,4 @@
+import Sidebar from './components/Sidebar'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -11,7 +12,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <div className='flex flex-col'>
+          <div className='h-[500px]'>{ children }</div>
+          <div>
+            <Sidebar></Sidebar>
+          </div>
+        </div>
+      </body>
     </html>
   )
 }
