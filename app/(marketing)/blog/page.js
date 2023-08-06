@@ -1,11 +1,11 @@
 import React from 'react';
 
-const loading = () => {
+const blogpage = () => {
     return (
         <div>
-            <h1>Loading...</h1>
+            <h1>blog page</h1>
         </div>
     );
 };
 
-export default loading;
+export default blogpage;

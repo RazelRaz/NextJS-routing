@@ -1,11 +1,11 @@
 import React from 'react';
 
-const loading = () => {
+const faqPage = () => {
     return (
         <div>
-            <h1>Loading...</h1>
+            <h1>faq Page</h1>
         </div>
     );
 };
 
-export default loading;
+export default faqPage;
